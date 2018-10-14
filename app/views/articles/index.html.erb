@@ -1,0 +1,8 @@
+<h1>Latest articles:</h1>
+<ul>
+    <% @articles.each do |article| %>
+        <li>
+            <p><%= article.title %></p>
+        </li>
+    <% end %>
+</ul>
